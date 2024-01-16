@@ -5,7 +5,7 @@ import com.atlassian.jira.event.type.EventDispatchOption
 // Since updating Original Estimate will not trigger an update for the Remaining Estimate field, the logic below helps to achieve such result
 
 // Class
-def issue = event.issue as MutableIssuedef 
+def issue = event.issue as MutableIssue
 def changeLog = event.getChangeLog()
 
 // Variables
